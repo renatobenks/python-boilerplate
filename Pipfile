@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylama = "~=7.7"
+pytest = "~=5.3"
+black = "~=19.10b0"
+virtualenv = "~=16.7"
+mypy = "~=0.761"
+pylint = "~=2.4"
+pyflakes = "~=2.1"
+pycodestyle = "~=2.5"
+radon = "~=4.1"
+bandit = "~=1.6"
+
+[packages]
+haversine = "~=2.2"
+python-dotenv = "~=0.10"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
