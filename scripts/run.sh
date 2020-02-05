@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-echo -e "\n 🚀 Running python app found at $(pwd)... \n\n"
+echo -e "\n 🚀 Running code from app...\n\n"
 ENV=local python .
 echo -e "\n"
