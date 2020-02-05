@@ -7,6 +7,5 @@ echo "📺 Starting as watch mode the testing script..."
 watchmedo shell-command src/ \
     --wait \
     --recursive \
-    --patterns="*_test.py" \
-    --ignore-patterns="*.py" \
+    --patterns="src/*.py" \
     --command='./scripts/test_development.sh' \
