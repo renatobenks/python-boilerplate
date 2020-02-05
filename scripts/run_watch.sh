@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "📺 Starting the running app on watch mode..."
+echo "📺 Starting as watch mode the running script..."
 
 ./scripts/run.sh
 
