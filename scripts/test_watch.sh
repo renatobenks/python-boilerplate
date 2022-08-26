@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-echo "📺 Starting as watch mode the testing script..."
+clear
+
+echo -e " 📺 Starting as watching mode the testing script...\n"
+echo -e " 💻 Watching at src/ all .py files\n"
 
 ./scripts/test_development.sh
 
@@ -8,4 +11,4 @@ watchmedo shell-command src/ \
     --wait \
     --recursive \
     --patterns="src/*.py" \
-    --command='./scripts/test_development.sh' \
+    --command='clear && ./scripts/test_development.sh' \

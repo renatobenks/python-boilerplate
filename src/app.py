@@ -1,5 +1,5 @@
-from .config import ENVIRONMENT
+from . import config
 
 
-def main() -> None:
-    print("Ambiente sendo usado: %s", ENVIRONMENT)
+def run() -> None:
+    print(f"CONFIG -> {config.load()}")

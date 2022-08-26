@@ -1,11 +1,9 @@
-#!/usr/bin/env bash
+#!/usr/bin/,env bash
 
-echo -e "\n ⚙️ Testing the code into this python app...\n\n"
+echo -e "\n⚙️  Testing the code into this python app...\n"
 pytest src/ \
     --verbose \
     --exitfirst \
     --last-failed \
-    --last-failed-no-failures none \
-    --failed-first \
     --new-first \
-    --cache_clear
+    --failed-first \

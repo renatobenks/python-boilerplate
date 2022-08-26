@@ -1,5 +1,7 @@
-from .app import main
+from src import app
+
+__version__ = "0.1.0"
 
 
-if __name__ == "__main__":
-    main()
+def main() -> None:
+    app.run()
